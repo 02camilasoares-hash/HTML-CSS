@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: arial;
+            background-color: blanchedalmond;
+        }
+
+
+        header {
+            background-color: chocolate;
+            padding: 10px;
+            margin: 10px;
+        }
+         
+        nav {
+            background-color: coral;
+            padding: 10px;
+            box-shadow: 12px 11px 7px rgba(0, 0, 0, 0.253);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(105, 48, 48);
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 50px;
+        }
+
+        article {
+            background-color: aquamarine;
+        }
+
+        article > aside {
+            background-color: blue;
+        }
+
+        footer {
+            background-color: darkcyan;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 2px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: crimson;
+            border-radius: 50%;
+        }
+    </style>
+</head> 
+<body>
+     <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#"> link</a>
+            <a href="#"> link</a>
+            <a href="#"> link</a>
+            <a href="#"> link</a>
+            <a href="#"> link</a>
+        </nav>
+     </header>
+     <main>
+      <section id="assuntos"> 
+
+      </section>
+      <section id="noticias">
+        <article>
+            <h2>Noticia importante</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis eaque nulla quibusdam modi veniam quaerat consequatur corporis sint quasi voluptate necessitatibus nisi omnis eligendi rerum perspiciatis, non tempora debitis aliquid.</p>
+            <aside>
+                <p>Artigo escrito por Fulano de Tal</p>
+            </aside>
+        </article>
+      </section>
+     </main>
+     <footer>
+        <p>Desenvolvindo muito</p>
+     </footer>
+     <div id="bola">
+
+     </div>
+</body>
+</html>

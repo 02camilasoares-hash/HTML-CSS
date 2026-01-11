@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML</title>
+</head>
+<body>
+    <H1>Inserindo vídeos hospedados localmente</H1>
+    <p>Este vídeo está hospedado no meu prório servidor</p>
+
+    <video width="500" poster="media/20150318-9099gs180315-16.jpg"controls> <!--Poster permite uma imagem ao invés de mostar um frame aleatório na previa do video-->
+        <source src="media/meu-video.mp4" type="video/mp4">
+        <source src="media/meu-video.m4v" type="video/mp4">
+        <source src="media/meu-video.webm" type="video/webm">
+        <source src="media/meu-video.ogv" type="video/ogg">
+        <!--o navegador testa os videos em ordem cronologica-->
+        <p>seu navegador não tem compatibilidade com reprodução de videos.</p>
+        <!--hospedagem própria custa muito, videos consomem muita internet pelos altos gb que tem. muito caro para o dono do site-->
+    </video>
+    
+    <h1>Inserindo vídeos do youtube</h1>
+
+    <p>Posso adicionar videos do youtube clicando em compatilhar e em incorporar, código vem pronto</p>
+
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embedIJZW5Lz0eI"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture"
+    allowfullscreen>
+    </iframe>
+
+    <iframe width="560" height="315"
+src="https://www.youtube.com/embed/IJZWD5LzOeI"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+
+</body>
+</html>
