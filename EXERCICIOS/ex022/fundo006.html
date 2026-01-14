@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de tela</title>
     <style>
         body {
             height: 100vh;
@@ -12,11 +12,20 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-        }
+            background-attachment: scroll;
+
+            /* shorthand background
+
+            color > image > position > repeat > size* > attacment. */
+
+            background: black url("imagens/wallpaper002.jpg") center center no-repeat cover fixed;
+
+            /*size NAO funciona na short hand*/
+        } 
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkgoldenrod;
@@ -29,6 +38,19 @@
         <h1>Teste de imagem de fundo</h1>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, omnis eos consequatur dolorem tempore quibusdam iusto voluptate ducimus sequi corporis fuga est quas illo ullam quis rerum atque, temporibus eum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minus, error voluptatibus odit voluptatem ratione enim, animi veniam odio quisquam sed corporis ullam modi explicabo velit doloremque, voluptates adipisci aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum incidunt, dolore aspernatur ullam quidem minus. Corporis adipisci accusantium animi commodi vero ducimus voluptas. A recusandae minus repellendus provident, ex tenetur!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, omnis eos consequatur dolorem tempore quibusdam iusto voluptate ducimus sequi corporis fuga est quas illo ullam quis rerum atque, temporibus eum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minus, error voluptatibus odit voluptatem ratione enim, animi veniam odio quisquam sed corporis ullam modi explicabo velit doloremque, voluptates adipisci aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum incidunt, dolore aspernatur ullam quidem minus. Corporis adipisci accusantium animi commodi vero ducimus voluptas. A recusandae minus repellendus provident, ex tenetur!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, omnis eos consequatur dolorem tempore quibusdam iusto voluptate ducimus sequi corporis fuga est quas illo ullam quis rerum atque, temporibus eum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minus, error voluptatibus odit voluptatem ratione enim, animi veniam odio quisquam sed corporis ullam modi explicabo velit doloremque, voluptates adipisci aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum incidunt, dolore aspernatur ullam quidem minus. Corporis adipisci accusantium animi commodi vero ducimus voluptas. A recusandae minus repellendus provident, ex tenetur!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, omnis eos consequatur dolorem tempore quibusdam iusto voluptate ducimus sequi corporis fuga est quas illo ullam quis rerum atque, temporibus eum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minus, error voluptatibus odit voluptatem ratione enim, animi veniam odio quisquam sed corporis ullam modi explicabo velit doloremque, voluptates adipisci aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum incidunt, dolore aspernatur ullam quidem minus. Corporis adipisci accusantium animi commodi vero ducimus voluptas. A recusandae minus repellendus provident, ex tenetur!
         </p>
     </main>
 </body>
